@@ -1,0 +1,27 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100%;
+}
+
+a {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+
+input {
+    justify-content: center;
+    text-align: center;
+
+    field-sizing: content;
+    min-width: 10rem;
+    font-size: 3rem;
+}
+
+button {
+    font-size: 2rem; 
+}

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Greeter } from './greeter';
+import { SharedTips } from './shared-tips';
 
-describe('Greeter', () => {
-  let component: Greeter;
-  let fixture: ComponentFixture<Greeter>;
+describe('SharedTips', () => {
+  let component: SharedTips;
+  let fixture: ComponentFixture<SharedTips>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Greeter],
+      imports: [SharedTips],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Greeter);
+    fixture = TestBed.createComponent(SharedTips);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

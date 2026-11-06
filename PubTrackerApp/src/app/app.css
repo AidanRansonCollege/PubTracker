@@ -1,3 +1,16 @@
-main {
-    padding: 16px;
+
+app {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+app-header {
+    flex: 0 0 10%;
+}
+
+app-main {
+    flex: 0 0 60%;
 }
