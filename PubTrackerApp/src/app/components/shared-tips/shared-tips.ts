@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class SharedTips {
 
 
-  Submit(tipAmount: string) {
-    console.log("Submit button clicked", tipAmount);
+  Submit(tipAmount: number) {
+    console.log("Submit button clicked ", tipAmount);
   }
 }
